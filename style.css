@@ -7,10 +7,25 @@ body {
   color: #1f2937;
 }
 
-.nav,
-.hero,
-.footer {
+header,
+main section,
+footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 96px;
+}
+
+header,
+footer {
+  padding: 16px 96px;
+}
+
+.bg-dark {
   background-color: #1f2937;
+}
+
+.bg-grey {
+  background-color: #e5e7eb;
 }
 
 .main-title {
@@ -35,6 +50,16 @@ body {
   border-radius: 3px;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul {
+  display: flex;
+  gap: 32px;
+}
+
 .nav__logo {
   font-size: 24px;
   color: #f9faf8;
@@ -49,17 +74,13 @@ body {
   font-size: 36px;
 }
 
-.testimonial {
-  background-color: #e5e7eb;
-}
-
 .testimonial__content {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
 }
 
-.cta {
+.cta__banner {
   background-color: #3882f6;
 }
 
