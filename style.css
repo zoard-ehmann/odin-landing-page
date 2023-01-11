@@ -1,1 +1,72 @@
-@import "reset.css";
+@import "defaults.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,300&display=swap");
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  color: #1f2937;
+}
+
+.nav,
+.hero,
+.footer {
+  background-color: #1f2937;
+}
+
+.main-title {
+  font-weight: 900;
+}
+
+.sub-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.muted-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 5px 25px;
+  border-radius: 3px;
+}
+
+.nav__logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero .main-title {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.feature .main-title {
+  font-size: 36px;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+}
+
+.testimonial__content {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cta {
+  background-color: #3882f6;
+}
+
+.cta .sub-title {
+  color: #f9faf8;
+}
+
+.cta .btn {
+  border: 1px solid #f9faf8;
+}
