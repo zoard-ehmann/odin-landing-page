@@ -11,35 +11,33 @@
   <body>
     <header>
       <nav class="nav">
-        <div class="nav__logo">Header Logo</div>
-        <div class="nav__menu">
-          <ul>
-            <li><a href="#">Header Link 1</a></li>
-            <li><a href="#">Header Link 2</a></li>
-            <li><a href="#">Header Link 3</a></li>
-          </ul>
-        </div>
+        <div class="nav__logo"><a href="#">Header Logo</a></div>
+        <ul>
+          <li><a class="muted-text" href="#">Header Link 1</a></li>
+          <li><a class="muted-text" href="#">Header Link 2</a></li>
+          <li><a class="muted-text" href="#">Header Link 3</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
       <section class="hero">
-        <div class="hero__left">
-          <h1 class="hero__main">This website is awesome!</h1>
-          <p class="hero__secondary">
+        <div>
+          <h1 class="main-title">This website is awesome!</h1>
+          <p class="muted-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga quia
             enim modi facere hic est accusantium rem eveniet officiis.
           </p>
-          <a href="#">Sign up</a>
+          <a class="btn" href="#">Sign up</a>
         </div>
-        <div class="hero__right">
+        <div>
           <img src="https://picsum.photos/500/250" alt="Random picsum photo" />
         </div>
       </section>
 
       <section class="feature">
-        <h2>Some random information.</h2>
-        <div class="feature__cards">
+        <h2 class="main-title">Some random information.</h2>
+        <div>
           <div class="card">
             <img src="https://picsum.photos/200" alt="Random picsum photo" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -60,32 +58,30 @@
       </section>
 
       <section class="testimonial">
-        <p>
+        <p class="testimonial__content">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere,
           ipsam. Corrupti earum perferendis, eligendi eius excepturi et
           aspernatur repellendus voluptate nisi perspiciatis quod quidem numquam
           ratione nesciunt id deleniti minima!
         </p>
-        <p>- Thor, God of Thunder</p>
+        <p class="sub-title">- Thor, God of Thunder</p>
       </section>
 
       <section class="cta">
-        <div class="cta__banner">
-          <div class="cta__text">
-            <p>Call to action! It's time!</p>
-            <p>Sign up for our product by clicking that button over there.</p>
-          </div>
-          <div class="cta__btn">
-            <a href="#">Sign up</a>
-          </div>
+        <div>
+          <p class="sub-title">Call to action! It's time!</p>
+          <p class="muted-text">
+            Sign up for our product by clicking that button over there.
+          </p>
+        </div>
+        <div>
+          <a class="btn" href="#">Sign up</a>
         </div>
       </section>
     </main>
 
-    <footer>
-      <div class="footer">
-        <p>Copyright © The Odin Project & Zoard, 2023</p>
-      </div>
+    <footer class="footer">
+      <p class="muted-text">Copyright © The Odin Project & Zoard, 2023</p>
     </footer>
   </body>
 </html>
