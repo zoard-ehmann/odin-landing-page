@@ -4,6 +4,7 @@ html {
 
 body {
   margin: 0;
+  color: black;
 }
 
 *,
@@ -16,6 +17,11 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 h1,
