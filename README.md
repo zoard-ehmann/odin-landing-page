@@ -19,5 +19,4 @@ A simple landing page that uses only HTML and CSS. Main layout is designed with 
 
 ### CSS
 
-- Basic CSS properties
 - CSS flexbox
