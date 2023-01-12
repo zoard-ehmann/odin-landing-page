@@ -99,6 +99,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 64px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -140,6 +141,7 @@ footer {
   justify-content: space-between;
   gap: 16px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .cta .sub-title {
