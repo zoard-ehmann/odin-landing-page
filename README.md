@@ -7,3 +7,7 @@ The Odin Project: Landing Page
 ## Description
 
 A simple landing page that uses only HTML and CSS. Main layout is designed with CSS flex.
+
+## Visuals
+
+![Landing page screenshot](screenshot.png)
