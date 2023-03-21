@@ -10,4 +10,5 @@ A simple landing page that uses only HTML and CSS. Main layout is designed with 
 
 ## Visuals
 
-![Landing page screenshot](screenshot.png)
+**Home**
+![Home](screenshot.png)
