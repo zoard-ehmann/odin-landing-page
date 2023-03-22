@@ -10,6 +10,6 @@ A simple landing page that uses only HTML and CSS. Main layout is designed with 
 
 ## Visuals
 
-**Home**
+### Home
 
 ![Home](screenshots/home.png)
